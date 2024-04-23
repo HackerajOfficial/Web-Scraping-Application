@@ -1,7 +1,7 @@
 # Web Scraping Application
 
 ## Description:
-web scraping to extract data from a website and stores it in a structured
+Web scraping to extract data from a website and stores it in a structured
 format. This project aims to assess your proficiency in web scraping techniques, data
 handling, error management.
 
