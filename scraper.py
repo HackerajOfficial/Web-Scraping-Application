@@ -7,6 +7,17 @@ import logging
 logging.basicConfig(filename='scraping_errors.log', level=logging.ERROR)
 
 def scrape_and_store_books(url, csv_file):
+    """
+    Scrape Book's title, price, and rating from the given books website URL and store it in a CSV file.
+
+    Parameters:
+    - url (str): The URL of the Book page containing books and prices. e.g http://books.toscrape.com/
+    - csv_file (str): The filename of the CSV file to store the data.
+
+    Returns:
+    None
+
+    """
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise an error for non-200 status codes

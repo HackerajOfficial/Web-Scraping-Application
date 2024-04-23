@@ -1,1 +1,3 @@
 venv/
+scraping_errors.log
+books.csv
