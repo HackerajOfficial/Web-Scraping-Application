@@ -27,7 +27,7 @@ handling, error management.
     ```
 4. Start the Django development server:
     ```
-      python scraper
+      python scraper.py
     ```
 
 ## Limitations:
