@@ -6,7 +6,7 @@ import logging
 # Configure logging
 logging.basicConfig(filename='scraping_errors.log', level=logging.ERROR)
 
-def scrape_and_store_books(url, csv_file):
+def scraping(url, csv_file):
     """
     Scrape Book's title, price, and rating from the given books website URL and store it in a CSV file.
 
@@ -63,4 +63,4 @@ if __name__ == "__main__":
     book_site_url = 'http://books.toscrape.com/'
     csv_file = 'books.csv'
 
-    scrape_and_store_books(book_site_url, csv_file)
+    scraping(book_site_url, csv_file)
